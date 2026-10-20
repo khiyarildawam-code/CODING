@@ -4,7 +4,7 @@ body {
     color: #191970: /* warna teks utama (biru gelap) */
 }
 
-.kartu-profil {
+.DSC01160 {
     width: 300px;
     margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
     padding: 20px;
@@ -15,7 +15,7 @@ body {
 }
 
 
-.kartu-profil img {
+.DSC01160 img {
     width: 150px;
     border-radius: 50%; /* trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
