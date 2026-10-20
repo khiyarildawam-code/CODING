@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFFEO; /* warna kuning cerah */
+    background-color: #255, 0, 0; /* warna kuning cerah */
     font-family: Arial, sans-serif; /* jenis huruf yang bersih dan mudah dibaca */
     color: #191970: /* warna teks utama (biru gelap) */
 }
@@ -8,7 +8,7 @@ body {
     width: 300px;
     margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
     padding: 20px;
-    background-color: white;
+    background-color: red;
     border-radius: 15px; /* membuat sudut menjadi melengkung */
     box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* efek bayangan */
     text-align: center; /* menengahkan semua teks di dalam kartu */
