@@ -1,19 +1,23 @@
 body {
-    background-color: #255, 0, 0; /* warna kuning cerah */
+    /* PERBAIKAN: Format warna kuning cerah diubah menjadi rgb */
+    background-color: rgb(255, 255, 0); /* warna kuning cerah */
     font-family: Arial, sans-serif; /* jenis huruf yang bersih dan mudah dibaca */
-    color: #191970: /* warna teks utama (biru gelap) */
+    
+    /* PERBAIKAN: Mengganti titik dua (:) di akhir baris menjadi titik koma (;) */
+    color: #191970; /* warna teks utama (biru gelap) */
 }
 
 .foto-profil {
     width: 300px;
-    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
+    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kotak ini ke tengah layar */
     padding: 20px;
-    background-color: red;
-    border-radius: 15px; /* membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* efek bayangan */
-    text-align: center; /* menengahkan semua teks di dalam kartu */
+    background-color: red; /* Warna merah untuk kotak profil */
+    border-radius: 15px; /* membuat sudut kotak menjadi melengkung */
+    
+    /* PERBAIKAN: Nilai transparansi rgba(0,0,0,0,1) diubah jadi 0.1 karena hanya butuh 4 nilai */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* efek bayangan */
+    text-align: center; /* menengahkan semua teks dan gambar di dalam kartu */
 }
-
 
 .foto-profil img {
     width: 150px;
